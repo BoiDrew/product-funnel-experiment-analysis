@@ -6,10 +6,24 @@ This project analyzes a B2C e-commerce conversion funnel to identify where users
 ## Business Problem
 Despite healthy traffic and product engagement, a large proportion of users fail to complete purchases. The business objective is to identify funnel bottlenecks and test product changes that increase conversion while minimizing risk.
 
+## Funnel Definition & KPIs
+### Funnel Stages
+The conversion funnel is defined as
+Page View - Product View - Add to Cart - Purchase
+
+## Key Metrics & KPIs
+* Purchase Conversion Rate (primary KPI)
+* Step-to-step conversion rates
+* Funnel drop-off rates
+The primary KPI for experimentation is purchase conversion among users who add items to cart, as this represents the largest revenue opportunity.
+
 ## Experiemnt Design & Rsults
 A A/B tests simulated experiment to test whether adding  trust signals  during checkout reduces abandonment. 
 Treated group showed an approximate 11.7% lift in purchase conversion relative to control. Due to the magnitude of the lift and low risk nature of the change. It is recommandeded to ship the update while monitoring guardrial metrics
 
 ## Risks & Limitations
 Results are based on simulated outcomes and assume consistent user behavior. Real-world experiments may be affected by imperfect randomization, behavioral variability, and unintended UX side effects. Post-launch monitoring of order value, checkout duration, and error rates is recommended.
+
+## Final Note
+This project demonstrates how product analytics can move beyond reporting to directly inform experimentation and decision-making that drives measurable business impact.
 
