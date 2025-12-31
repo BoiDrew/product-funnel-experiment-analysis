@@ -1,5 +1,6 @@
-## Excutive Summary
+# 🛒 E-commerce Funnel Analysis & Experimentation
 
+## Excutive Summary
 This project analyzes a B2C e-commerce conversion funnel to identify where users drop off and to design data-driven experiments that improve purchase conversion. Using event-level clickstream data, the analysis reveals significant checkout abandonment after users add items to cart. A simulated A/B experiment demonstrates that reducing checkout friction through trust signals could increase purchase conversion by approximately 12%, supporting a recommendation to ship the change with appropriate guardrail monitoring.
 
 ## Business Problem
