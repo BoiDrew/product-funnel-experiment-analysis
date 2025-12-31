@@ -1,9 +1,21 @@
-## Excutive Summary
+# 🛒 E-commerce Funnel Analysis & Experimentation
 
+## Excutive Summary
 This project analyzes a B2C e-commerce conversion funnel to identify where users drop off and to design data-driven experiments that improve purchase conversion. Using event-level clickstream data, the analysis reveals significant checkout abandonment after users add items to cart. A simulated A/B experiment demonstrates that reducing checkout friction through trust signals could increase purchase conversion by approximately 12%, supporting a recommendation to ship the change with appropriate guardrail monitoring.
 
 ## Business Problem
 Despite healthy traffic and product engagement, a large proportion of users fail to complete purchases. The business objective is to identify funnel bottlenecks and test product changes that increase conversion while minimizing risk.
+
+## Funnel Definition & KPIs
+### Funnel Stages
+The conversion funnel is defined as
+Page View - Product View - Add to Cart - Purchase
+
+## Key Metrics & KPIs
+* Purchase Conversion Rate (primary KPI)
+* Step-to-step conversion rates
+* Funnel drop-off rates
+The primary KPI for experimentation is purchase conversion among users who add items to cart, as this represents the largest revenue opportunity.
 
 ## Experiemnt Design & Rsults
 A A/B tests simulated experiment to test whether adding  trust signals  during checkout reduces abandonment. 
@@ -11,4 +23,7 @@ Treated group showed an approximate 11.7% lift in purchase conversion relative t
 
 ## Risks & Limitations
 Results are based on simulated outcomes and assume consistent user behavior. Real-world experiments may be affected by imperfect randomization, behavioral variability, and unintended UX side effects. Post-launch monitoring of order value, checkout duration, and error rates is recommended.
+
+## Final Note
+This project demonstrates how product analytics can move beyond reporting to directly inform experimentation and decision-making that drives measurable business impact.
 
